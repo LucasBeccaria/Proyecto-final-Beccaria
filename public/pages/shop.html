@@ -10,31 +10,42 @@
     <link rel="icon" href="../assets/logo.ico">
 </head>
 <body>
-    <header class="header">
+     
+<header class="header">
 
-        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>Clothes shop</a>
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>Clothes shop</a>
 
-        <nav class="navbar">
-            <a href="../index.html">Inicio</a>
-            <a href="#">Tienda</a>
-            <a href="./contact.html">Contacto</a>
-        </nav>
+    <nav class="navbar">
+        <a href="../index.html">Inicio</a>
+        <a href="#">Tienda</a>
+        <a href="./contact.html">Contacto</a>
+    </nav>
 
-        <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div> 
-            <div id="search-btn" class="fas fa-search"></div> 
-            <div id="cart-btn" class="fas fa-shopping-cart"></div> 
-            <div id="login-btn" class="fas fa-user"></div> 
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div> 
+        <div id="search-btn" class="fas fa-search"></div> 
+        <div id="cart-btn" class="fas fa-shopping-cart"></div> 
+        <div id="login-btn" class="fas fa-user"></div> 
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="Buscar..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="./assets/zapas1.avif" alt="imagen de zapatillas">
+            <div class="content">
+                <h3>Nike</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$19.99</span>
+            </div>
         </div>
-
-        <form action="" class="search-form">
-            <input type="search" placeholder="Buscar..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-        <div class="shopping-cart">
             <div class="box">
                 <i class="fas fa-times"></i>
-                <img src="./assets/zapas1.avif" alt="imagen de zapatillas">
+                <img src="./assets/zapas3.avif" alt="imagen de zapatillas">
                 <div class="content">
                     <h3>Nike</h3>
                     <span class="quantity">1</span>
@@ -44,7 +55,7 @@
             </div>
                 <div class="box">
                     <i class="fas fa-times"></i>
-                    <img src="./assets/zapas3.avif" alt="imagen de zapatillas">
+                    <img src="./assets/zapas2.avif" alt="imagen de zapatillas">
                     <div class="content">
                         <h3>Nike</h3>
                         <span class="quantity">1</span>
@@ -52,34 +63,23 @@
                         <span class="price">$19.99</span>
                     </div>
                 </div>
-                    <div class="box">
-                        <i class="fas fa-times"></i>
-                        <img src="./assets/zapas2.avif" alt="imagen de zapatillas">
-                        <div class="content">
-                            <h3>Nike</h3>
-                            <span class="quantity">1</span>
-                            <span class="multiply">x</span>
-                            <span class="price">$19.99</span>
-                        </div>
-                    </div>
-                <h3 class="total"> total: <span>56.97</span></h3>
-                <a href="./pages/error404.html" class="btn">Agregar al carito</a>
+            <h3 class="total"> total: <span>56.97</span></h3>
+            <a href="./error404.html" class="btn">Agregar al carito</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="Email" placeholder="email" class="box">
+        <input type="Password" placeholder="Password" class="box">
+        <div class="remerber">
+            <input type="checkbox" name="" id="remerber-me">
+            <label for="remerber-me">remerber me</label>
         </div>
-
-        <form action="" class="login-form">
-            <h3>login form</h3>
-            <input type="Email" placeholder="email" class="box">
-            <input type="Password" placeholder="Password" class="box">
-            <div class="remerber">
-                <input type="checkbox" name="" id="remerber-me">
-                <label for="remerber-me">remerber me</label>
-            </div>
-            <input type="submit" value="login now" class="btn">
-            <p>Olvide mi Password? <a href="./pages/error404.html">Clik aqui</a></p> 
-            <p>No tienes una cuenta?<a href="./pages/error404.html">Crear Cuenta</a></p> 
-        </form>    
+        <input type="submit" value="login now" class="btn">
+        <p>Olvide mi Password? <a href="./pages/error404.html">Clik aqui</a></p> 
+        <p>No tienes una cuenta?<a href="./pages/error404.html">Crear Cuenta</a></p> 
+    </form>    
 </header>
-
 <mian>
 
     <div class="heading">
